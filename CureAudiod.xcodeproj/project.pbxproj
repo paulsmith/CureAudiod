@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA5FBC9E1F13D9EF0019793E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FBC9D1F13D9EF0019793E /* AppDelegate.swift */; };
+		DA5FBCA01F13D9EF0019793E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FBC9F1F13D9EF0019793E /* ViewController.swift */; };
+		DA5FBCA21F13D9EF0019793E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA5FBCA11F13D9EF0019793E /* Assets.xcassets */; };
+		DA5FBCA51F13D9EF0019793E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5FBCA31F13D9EF0019793E /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA5FBC9A1F13D9EF0019793E /* CureAudiod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CureAudiod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5FBC9D1F13D9EF0019793E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA5FBC9F1F13D9EF0019793E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA5FBCA11F13D9EF0019793E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA5FBCA41F13D9EF0019793E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA5FBCA61F13D9EF0019793E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA5FBC971F13D9EF0019793E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA5FBC911F13D9EF0019793E = {
+			isa = PBXGroup;
+			children = (
+				DA5FBC9C1F13D9EF0019793E /* CureAudiod */,
+				DA5FBC9B1F13D9EF0019793E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA5FBC9B1F13D9EF0019793E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA5FBC9A1F13D9EF0019793E /* CureAudiod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA5FBC9C1F13D9EF0019793E /* CureAudiod */ = {
+			isa = PBXGroup;
+			children = (
+				DA5FBC9D1F13D9EF0019793E /* AppDelegate.swift */,
+				DA5FBC9F1F13D9EF0019793E /* ViewController.swift */,
+				DA5FBCA11F13D9EF0019793E /* Assets.xcassets */,
+				DA5FBCA31F13D9EF0019793E /* Main.storyboard */,
+				DA5FBCA61F13D9EF0019793E /* Info.plist */,
+			);
+			path = CureAudiod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA5FBC991F13D9EF0019793E /* CureAudiod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA5FBCA91F13D9EF0019793E /* Build configuration list for PBXNativeTarget "CureAudiod" */;
+			buildPhases = (
+				DA5FBC961F13D9EF0019793E /* Sources */,
+				DA5FBC971F13D9EF0019793E /* Frameworks */,
+				DA5FBC981F13D9EF0019793E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CureAudiod;
+			productName = CureAudiod;
+			productReference = DA5FBC9A1F13D9EF0019793E /* CureAudiod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA5FBC921F13D9EF0019793E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Paul Smith";
+				TargetAttributes = {
+					DA5FBC991F13D9EF0019793E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9595PA8657;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DA5FBC951F13D9EF0019793E /* Build configuration list for PBXProject "CureAudiod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA5FBC911F13D9EF0019793E;
+			productRefGroup = DA5FBC9B1F13D9EF0019793E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA5FBC991F13D9EF0019793E /* CureAudiod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA5FBC981F13D9EF0019793E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5FBCA21F13D9EF0019793E /* Assets.xcassets in Resources */,
+				DA5FBCA51F13D9EF0019793E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA5FBC961F13D9EF0019793E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5FBCA01F13D9EF0019793E /* ViewController.swift in Sources */,
+				DA5FBC9E1F13D9EF0019793E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA5FBCA31F13D9EF0019793E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA5FBCA41F13D9EF0019793E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA5FBCA71F13D9EF0019793E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA5FBCA81F13D9EF0019793E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		DA5FBCAA1F13D9EF0019793E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9595PA8657;
+				INFOPLIST_FILE = CureAudiod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.sm1th.CureAudiod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DA5FBCAB1F13D9EF0019793E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9595PA8657;
+				INFOPLIST_FILE = CureAudiod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.sm1th.CureAudiod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA5FBC951F13D9EF0019793E /* Build configuration list for PBXProject "CureAudiod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5FBCA71F13D9EF0019793E /* Debug */,
+				DA5FBCA81F13D9EF0019793E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA5FBCA91F13D9EF0019793E /* Build configuration list for PBXNativeTarget "CureAudiod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5FBCAA1F13D9EF0019793E /* Debug */,
+				DA5FBCAB1F13D9EF0019793E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA5FBC921F13D9EF0019793E /* Project object */;
+}
