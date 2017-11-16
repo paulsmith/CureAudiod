@@ -2,17 +2,17 @@
 
     <b>=== CureAudiod ===</b>
 
-    <img src="cureaudio.png" alt="screenshot of CureAudiod menu bar open"/>
+    <img src="https://github.com/paulsmith/CureAudiod/blob/master/cureaudiod.png?raw=true" alt="screenshot of CureAudiod menu bar open"/>
 
-	<b>Why</b>
+    <b>Why</b>
 
-	"We can't hear you." - your colleague on Google Meet
+    "We can't hear you." - your colleague on Google Meet
 
 	"My camera isn't working." - you on Appear.in
 
 	<b>Installation</b>
 	
-    · Download a release .zip file
+    · <a href="https://github.com/paulsmith/CureAudiod/releases/download/v0.0.1/CureAudiod.zip">Download a release .zip file</a>
 	· Unzip
 	· Double-click on CureAudiod.app
 	
